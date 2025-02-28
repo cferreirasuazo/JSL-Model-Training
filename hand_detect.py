@@ -20,9 +20,9 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Gesture mapping
-gesture_names = ["Up", "Down", "Left", "Right", "Left Up", "Left Down", "Right Down", "Right Up", "Fire"]
-width = 640
-height = 360
+gesture_names = ["A", "I", "U","E", "o"]
+width = 1024
+height = 768
 
 # Function to normalize landmarks
 def normalize_landmarks(landmarks):
